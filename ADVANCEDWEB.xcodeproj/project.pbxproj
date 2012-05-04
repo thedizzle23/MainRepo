@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1D878AD155402DF00076720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D878AC155402DF00076720 /* UIKit.framework */; };
+		D1D878AF155402DF00076720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D878AE155402DF00076720 /* Foundation.framework */; };
+		D1D878B1155402DF00076720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D878B0155402DF00076720 /* CoreGraphics.framework */; };
+		D1D878B7155402DF00076720 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1D878B5155402DF00076720 /* InfoPlist.strings */; };
+		D1D878B9155402E000076720 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D878B8155402E000076720 /* main.m */; };
+		D1D878BD155402E000076720 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D878BC155402E000076720 /* AppDelegate.m */; };
+		D1D878C0155402E000076720 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1D878BE155402E000076720 /* MainStoryboard.storyboard */; };
+		D1D878C3155402E000076720 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D878C2155402E000076720 /* ViewController.m */; };
+		D1D878CB155402E100076720 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D878CA155402E100076720 /* SenTestingKit.framework */; };
+		D1D878CC155402E100076720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D878AC155402DF00076720 /* UIKit.framework */; };
+		D1D878CD155402E100076720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D878AE155402DF00076720 /* Foundation.framework */; };
+		D1D878D5155402E100076720 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1D878D3155402E100076720 /* InfoPlist.strings */; };
+		D1D878D8155402E100076720 /* ADVANCEDWEBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D878D7155402E100076720 /* ADVANCEDWEBTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1D878CE155402E100076720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D1D8789F155402D000076720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1D878A7155402D800076720;
+			remoteInfo = ADVANCEDWEB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D1D878A8155402DE00076720 /* ADVANCEDWEB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADVANCEDWEB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D878AC155402DF00076720 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1D878AE155402DF00076720 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1D878B0155402DF00076720 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1D878B4155402DF00076720 /* ADVANCEDWEB-Info.plist */ = {isa = PBXFileReference; path = "ADVANCEDWEB-Info.plist"; sourceTree = "<group>"; };
+		D1D878B6155402DF00076720 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1D878B8155402E000076720 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1D878BA155402E000076720 /* ADVANCEDWEB-Prefix.pch */ = {isa = PBXFileReference; path = "ADVANCEDWEB-Prefix.pch"; sourceTree = "<group>"; };
+		D1D878BB155402E000076720 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1D878BC155402E000076720 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1D878BF155402E000076720 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D1D878C1155402E000076720 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D1D878C2155402E000076720 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1D878C9155402E100076720 /* ADVANCEDWEBTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADVANCEDWEBTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D878CA155402E100076720 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D1D878D2155402E100076720 /* ADVANCEDWEBTests-Info.plist */ = {isa = PBXFileReference; path = "ADVANCEDWEBTests-Info.plist"; sourceTree = "<group>"; };
+		D1D878D4155402E100076720 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1D878D6155402E100076720 /* ADVANCEDWEBTests.h */ = {isa = PBXFileReference; path = ADVANCEDWEBTests.h; sourceTree = "<group>"; };
+		D1D878D7155402E100076720 /* ADVANCEDWEBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADVANCEDWEBTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1D878A5155402D800076720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D878AD155402DF00076720 /* UIKit.framework in Frameworks */,
+				D1D878AF155402DF00076720 /* Foundation.framework in Frameworks */,
+				D1D878B1155402DF00076720 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D878C5155402E100076720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D878CB155402E100076720 /* SenTestingKit.framework in Frameworks */,
+				D1D878CC155402E100076720 /* UIKit.framework in Frameworks */,
+				D1D878CD155402E100076720 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1D8789D155402CE00076720 = {
+			isa = PBXGroup;
+			children = (
+				D1D878B2155402DF00076720 /* ADVANCEDWEB */,
+				D1D878D0155402E100076720 /* ADVANCEDWEBTests */,
+				D1D878AB155402DE00076720 /* Frameworks */,
+				D1D878A9155402DE00076720 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1D878A9155402DE00076720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1D878A8155402DE00076720 /* ADVANCEDWEB.app */,
+				D1D878C9155402E100076720 /* ADVANCEDWEBTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1D878AB155402DE00076720 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1D878AC155402DF00076720 /* UIKit.framework */,
+				D1D878AE155402DF00076720 /* Foundation.framework */,
+				D1D878B0155402DF00076720 /* CoreGraphics.framework */,
+				D1D878CA155402E100076720 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1D878B2155402DF00076720 /* ADVANCEDWEB */ = {
+			isa = PBXGroup;
+			children = (
+				D1D878BB155402E000076720 /* AppDelegate.h */,
+				D1D878BC155402E000076720 /* AppDelegate.m */,
+				D1D878BE155402E000076720 /* MainStoryboard.storyboard */,
+				D1D878C1155402E000076720 /* ViewController.h */,
+				D1D878C2155402E000076720 /* ViewController.m */,
+				D1D878B3155402DF00076720 /* Supporting Files */,
+			);
+			path = ADVANCEDWEB;
+			sourceTree = "<group>";
+		};
+		D1D878B3155402DF00076720 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1D878B4155402DF00076720 /* ADVANCEDWEB-Info.plist */,
+				D1D878B5155402DF00076720 /* InfoPlist.strings */,
+				D1D878B8155402E000076720 /* main.m */,
+				D1D878BA155402E000076720 /* ADVANCEDWEB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1D878D0155402E100076720 /* ADVANCEDWEBTests */ = {
+			isa = PBXGroup;
+			children = (
+				D1D878D6155402E100076720 /* ADVANCEDWEBTests.h */,
+				D1D878D7155402E100076720 /* ADVANCEDWEBTests.m */,
+				D1D878D1155402E100076720 /* Supporting Files */,
+			);
+			path = ADVANCEDWEBTests;
+			sourceTree = "<group>";
+		};
+		D1D878D1155402E100076720 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1D878D2155402E100076720 /* ADVANCEDWEBTests-Info.plist */,
+				D1D878D3155402E100076720 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1D878A7155402D800076720 /* ADVANCEDWEB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D878DB155402E100076720 /* Build configuration list for PBXNativeTarget "ADVANCEDWEB" */;
+			buildPhases = (
+				D1D878A4155402D800076720 /* Sources */,
+				D1D878A5155402D800076720 /* Frameworks */,
+				D1D878A6155402D800076720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADVANCEDWEB;
+			productName = ADVANCEDWEB;
+			productReference = D1D878A8155402DE00076720 /* ADVANCEDWEB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D1D878C8155402E100076720 /* ADVANCEDWEBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1D878DE155402E100076720 /* Build configuration list for PBXNativeTarget "ADVANCEDWEBTests" */;
+			buildPhases = (
+				D1D878C4155402E100076720 /* Sources */,
+				D1D878C5155402E100076720 /* Frameworks */,
+				D1D878C6155402E100076720 /* Resources */,
+				D1D878C7155402E100076720 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1D878CF155402E100076720 /* PBXTargetDependency */,
+			);
+			name = ADVANCEDWEBTests;
+			productName = ADVANCEDWEBTests;
+			productReference = D1D878C9155402E100076720 /* ADVANCEDWEBTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1D8789F155402D000076720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "DevelopMental IPhone Applications";
+			};
+			buildConfigurationList = D1D878A2155402D100076720 /* Build configuration list for PBXProject "ADVANCEDWEB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1D8789D155402CE00076720;
+			productRefGroup = D1D878A9155402DE00076720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1D878A7155402D800076720 /* ADVANCEDWEB */,
+				D1D878C8155402E100076720 /* ADVANCEDWEBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1D878A6155402D800076720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D878B7155402DF00076720 /* InfoPlist.strings in Resources */,
+				D1D878C0155402E000076720 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D878C6155402E100076720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D878D5155402E100076720 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D1D878C7155402E100076720 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1D878A4155402D800076720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D878B9155402E000076720 /* main.m in Sources */,
+				D1D878BD155402E000076720 /* AppDelegate.m in Sources */,
+				D1D878C3155402E000076720 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1D878C4155402E100076720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D878D8155402E100076720 /* ADVANCEDWEBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D1D878CF155402E100076720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1D878A7155402D800076720 /* ADVANCEDWEB */;
+			targetProxy = D1D878CE155402E100076720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D1D878B5155402DF00076720 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1D878B6155402DF00076720 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1D878BE155402E000076720 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1D878BF155402E000076720 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		D1D878D3155402E100076720 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1D878D4155402E100076720 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1D878D9155402E100076720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1D878DA155402E100076720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1D878DC155402E100076720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADVANCEDWEB/ADVANCEDWEB-Prefix.pch";
+				INFOPLIST_FILE = "ADVANCEDWEB/ADVANCEDWEB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1D878DD155402E100076720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADVANCEDWEB/ADVANCEDWEB-Prefix.pch";
+				INFOPLIST_FILE = "ADVANCEDWEB/ADVANCEDWEB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D1D878DF155402E100076720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ADVANCEDWEB.app/ADVANCEDWEB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADVANCEDWEB/ADVANCEDWEB-Prefix.pch";
+				INFOPLIST_FILE = "ADVANCEDWEBTests/ADVANCEDWEBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D1D878E0155402E100076720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ADVANCEDWEB.app/ADVANCEDWEB";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADVANCEDWEB/ADVANCEDWEB-Prefix.pch";
+				INFOPLIST_FILE = "ADVANCEDWEBTests/ADVANCEDWEBTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1D878A2155402D100076720 /* Build configuration list for PBXProject "ADVANCEDWEB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D878D9155402E100076720 /* Debug */,
+				D1D878DA155402E100076720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1D878DB155402E100076720 /* Build configuration list for PBXNativeTarget "ADVANCEDWEB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D878DC155402E100076720 /* Debug */,
+				D1D878DD155402E100076720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D1D878DE155402E100076720 /* Build configuration list for PBXNativeTarget "ADVANCEDWEBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D878DF155402E100076720 /* Debug */,
+				D1D878E0155402E100076720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1D8789F155402D000076720 /* Project object */;
+}
