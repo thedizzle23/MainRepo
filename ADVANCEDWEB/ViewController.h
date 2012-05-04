@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIWebViewDelegate, UIAlertViewDelegate> {
+    
+    IBOutlet UIWebView *webView;
+}
+
+
+
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+
+-(IBAction)pushButton:(id)sender;
 
 @end
