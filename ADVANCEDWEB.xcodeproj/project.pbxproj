@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1C322AB155DBF39005295CE /* ScooperController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C322A9155DBF39005295CE /* ScooperController.m */; };
+		D1C322AC155DBF39005295CE /* ScooperController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1C322AA155DBF39005295CE /* ScooperController.xib */; };
 		D1D878AD155402DF00076720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D878AC155402DF00076720 /* UIKit.framework */; };
 		D1D878AF155402DF00076720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D878AE155402DF00076720 /* Foundation.framework */; };
 		D1D878B1155402DF00076720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D878B0155402DF00076720 /* CoreGraphics.framework */; };
@@ -33,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1C322A8155DBF39005295CE /* ScooperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScooperController.h; sourceTree = "<group>"; };
+		D1C322A9155DBF39005295CE /* ScooperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScooperController.m; sourceTree = "<group>"; };
+		D1C322AA155DBF39005295CE /* ScooperController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScooperController.xib; sourceTree = "<group>"; };
 		D1D878A8155402DE00076720 /* ADVANCEDWEB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADVANCEDWEB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D878AC155402DF00076720 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D1D878AE155402DF00076720 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,6 +86,9 @@
 		D1D8789D155402CE00076720 = {
 			isa = PBXGroup;
 			children = (
+				D1C322A8155DBF39005295CE /* ScooperController.h */,
+				D1C322A9155DBF39005295CE /* ScooperController.m */,
+				D1C322AA155DBF39005295CE /* ScooperController.xib */,
 				D1D878B2155402DF00076720 /* ADVANCEDWEB */,
 				D1D878D0155402E100076720 /* ADVANCEDWEBTests */,
 				D1D878AB155402DE00076720 /* Frameworks */,
@@ -224,6 +232,7 @@
 			files = (
 				D1D878B7155402DF00076720 /* InfoPlist.strings in Resources */,
 				D1D878C0155402E000076720 /* MainStoryboard.storyboard in Resources */,
+				D1C322AC155DBF39005295CE /* ScooperController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 				D1D878B9155402E000076720 /* main.m in Sources */,
 				D1D878BD155402E000076720 /* AppDelegate.m in Sources */,
 				D1D878C3155402E000076720 /* ViewController.m in Sources */,
+				D1C322AB155DBF39005295CE /* ScooperController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +440,7 @@
 				D1D878DD155402E100076720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1D878DE155402E100076720 /* Build configuration list for PBXNativeTarget "ADVANCEDWEBTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +449,7 @@
 				D1D878E0155402E100076720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
