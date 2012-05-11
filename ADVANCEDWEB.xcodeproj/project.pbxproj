@@ -43,6 +43,7 @@
 		D1C47F95155DCE4A007931E3 /* MainViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViews.h; sourceTree = "<group>"; };
 		D1C47F96155DCE4A007931E3 /* MainViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViews.m; sourceTree = "<group>"; };
 		D1C47F97155DCE4A007931E3 /* MainViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViews.xib; sourceTree = "<group>"; };
+		D1C47F9B155DCEBE007931E3 /* ADVANCEDWEB.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ADVANCEDWEB.entitlements; sourceTree = "<group>"; };
 		D1D878A8155402DE00076720 /* ADVANCEDWEB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADVANCEDWEB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D878AC155402DF00076720 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D1D878AE155402DF00076720 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -127,6 +128,7 @@
 		D1D878B2155402DF00076720 /* ADVANCEDWEB */ = {
 			isa = PBXGroup;
 			children = (
+				D1C47F9B155DCEBE007931E3 /* ADVANCEDWEB.entitlements */,
 				D1D878BB155402E000076720 /* AppDelegate.h */,
 				D1D878BC155402E000076720 /* AppDelegate.m */,
 				D1D878BE155402E000076720 /* MainStoryboard.storyboard */,
@@ -378,6 +380,7 @@
 		D1D878DC155402E100076720 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ADVANCEDWEB/ADVANCEDWEB.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ADVANCEDWEB/ADVANCEDWEB-Prefix.pch";
 				INFOPLIST_FILE = "ADVANCEDWEB/ADVANCEDWEB-Info.plist";
@@ -389,6 +392,7 @@
 		D1D878DD155402E100076720 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ADVANCEDWEB/ADVANCEDWEB.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ADVANCEDWEB/ADVANCEDWEB-Prefix.pch";
 				INFOPLIST_FILE = "ADVANCEDWEB/ADVANCEDWEB-Info.plist";
